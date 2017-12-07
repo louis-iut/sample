@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/louis/Developer/Android/sample-android-ci/app/build/intermediates/res/merged/debug/layout-v14/md_stub_progress_indeterminate_horizontal.xml",
+        "source": "/Users/louis/.android/build-cache/148dc977c89f8eb7015da82f6fb61829b533ee72/output/res/layout-v14/md_stub_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "/Users/louis/Developer/Android/sample-android-ci/app/build/intermediates/res/merged/debug/layout-v14/md_stub_progress.xml",
+        "source": "/Users/louis/.android/build-cache/148dc977c89f8eb7015da82f6fb61829b533ee72/output/res/layout-v14/md_stub_progress.xml"
+    },
+    {
+        "merged": "/Users/louis/Developer/Android/sample-android-ci/app/build/intermediates/res/merged/debug/layout-v14/md_stub_progress_indeterminate.xml",
+        "source": "/Users/louis/.android/build-cache/148dc977c89f8eb7015da82f6fb61829b533ee72/output/res/layout-v14/md_stub_progress_indeterminate.xml"
+    }
+]

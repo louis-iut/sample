@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amiltone.ci.model.pojo.BLEDeviceMockFailureImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-11-08T15:26:36" hostname="MacBook-Pro-de-Louis.local" time="0.03">
+  <properties/>
+  <testcase name="pairConnectDevice" classname="com.amiltone.ci.model.pojo.BLEDeviceMockFailureImplTest" time="0.025"/>
+  <testcase name="getLastValues" classname="com.amiltone.ci.model.pojo.BLEDeviceMockFailureImplTest" time="0.003"/>
+  <testcase name="getLastValue" classname="com.amiltone.ci.model.pojo.BLEDeviceMockFailureImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,92 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/louis/.android/build-cache/148dc977c89f8eb7015da82f6fb61829b533ee72/output/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/louis/.android/build-cache/4851bdfb00db24706b24f23ccbf9beb870dc3f0e/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/louis/.android/build-cache/28c9e55bd38b4a208bc1d5a6be034d70b288afd7/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/louis/.android/build-cache/c18e9f78060bd0a949b7fd07547ff4ee39893b6a/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/louis/.android/build-cache/428f47b93ac51c59427b71091e4ba5dc12515091/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/louis/.android/build-cache/41dbb04d211ae3820a9bd6f710603d71d122ca59/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/louis/.android/build-cache/ce3980fd405f1e33146cc5b5f55c68d4be7b2038/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/louis/.android/build-cache/2c2a71cc26199162e44fa34894505b432abc1a30/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/louis/.android/build-cache/31d1f5888a639d9f08c7a05e242a40b9e865ea22/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/louis/.android/build-cache/99d418e5fad157942083d7e380b0aa87e61eef50/output/AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.amiltone.ci.ui.activity.MainActivity
+ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:11:19-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:15:27-74
+activity#com.amiltone.ci.ui.activity.DetailActivity
+ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:18:9-19:20
+	android:name
+		ADDED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml:18:19-61
+uses-sdk
+INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/louis/.android/build-cache/5de5133ddf0fd1f85cb7060212bdebfd2185367c/output/AndroidManifest.xml:5:5-43
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/louis/.android/build-cache/148dc977c89f8eb7015da82f6fb61829b533ee72/output/AndroidManifest.xml:8:5-11:75
+MERGED from [com.android.support:recyclerview-v7:24.2.1] /Users/louis/.android/build-cache/dea9ad1472b56cd812ec9c517e44d94861f948d3/output/AndroidManifest.xml:20:5-43
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] /Users/louis/.android/build-cache/482e562017a8be38c3af1bf842ef2e9f169d867c/output/AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/louis/.android/build-cache/4851bdfb00db24706b24f23ccbf9beb870dc3f0e/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.2] /Users/louis/.android/build-cache/28c9e55bd38b4a208bc1d5a6be034d70b288afd7/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/louis/.android/build-cache/c18e9f78060bd0a949b7fd07547ff4ee39893b6a/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/louis/.android/build-cache/428f47b93ac51c59427b71091e4ba5dc12515091/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/louis/.android/build-cache/41dbb04d211ae3820a9bd6f710603d71d122ca59/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/louis/.android/build-cache/ce3980fd405f1e33146cc5b5f55c68d4be7b2038/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/louis/.android/build-cache/2c2a71cc26199162e44fa34894505b432abc1a30/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/louis/.android/build-cache/31d1f5888a639d9f08c7a05e242a40b9e865ea22/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/louis/.android/build-cache/99d418e5fad157942083d7e380b0aa87e61eef50/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.0.2] /Users/louis/.android/build-cache/148dc977c89f8eb7015da82f6fb61829b533ee72/output/AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/louis/Developer/Android/sample-android-ci/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/louis/.android/build-cache/4851bdfb00db24706b24f23ccbf9beb870dc3f0e/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/louis/.android/build-cache/28c9e55bd38b4a208bc1d5a6be034d70b288afd7/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/louis/.android/build-cache/c18e9f78060bd0a949b7fd07547ff4ee39893b6a/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/louis/.android/build-cache/428f47b93ac51c59427b71091e4ba5dc12515091/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/louis/.android/build-cache/41dbb04d211ae3820a9bd6f710603d71d122ca59/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/louis/.android/build-cache/ce3980fd405f1e33146cc5b5f55c68d4be7b2038/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/louis/.android/build-cache/2c2a71cc26199162e44fa34894505b432abc1a30/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/louis/.android/build-cache/31d1f5888a639d9f08c7a05e242a40b9e865ea22/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/louis/.android/build-cache/99d418e5fad157942083d7e380b0aa87e61eef50/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/louis/.android/build-cache/4851bdfb00db24706b24f23ccbf9beb870dc3f0e/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/louis/.android/build-cache/4851bdfb00db24706b24f23ccbf9beb870dc3f0e/output/AndroidManifest.xml:27:13-51
