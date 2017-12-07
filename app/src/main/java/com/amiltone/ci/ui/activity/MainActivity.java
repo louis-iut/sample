@@ -16,6 +16,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
+    int i;
     @BindView(R.id.activity_main_tv_content) TextView tvContent;
     private BLEManager bleManager;
     private MessagingModule messagingModule;
