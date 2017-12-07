@@ -20,7 +20,7 @@ cache:
 
 before_script:
     - chmod 777 gradlew
-    - chmod 777 ./build.sh
+    #- chmod 777 ./build.sh
 
 script:
 - "./gradlew assembleDebugUnitTest"
