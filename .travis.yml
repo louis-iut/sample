@@ -9,6 +9,8 @@ android:
   - extra-google-m2repository
   - extra-android-m2repository
 
+  sudo: required
+
 before_cache:
     - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
 
@@ -18,7 +20,7 @@ cache:
     - $HOME/.gradle/native      #Cache library downloaded from the gradle dependency
     - $HOME/.gradle/wrapper     #Cache the gradle
 
-before_script:
+before_install:
     - chmod 777 gradlew
     #- chmod 777 ./build.sh
 
