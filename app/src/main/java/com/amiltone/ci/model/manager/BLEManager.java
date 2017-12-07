@@ -8,6 +8,7 @@ import com.amiltone.ci.model.pojo.BLEDeviceMockImpl;
  * Created by amiltonedev_lt027 on 01/11/2016.
  */
 public class BLEManager {
+    private int test;
     private static BLEManager ourInstance = new BLEManager();
     public static BLEManager getInstance() {
         return ourInstance;
