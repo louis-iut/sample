@@ -19,8 +19,8 @@ cache:
     - $HOME/.gradle/wrapper     #Cache the gradle
 
 before_script:
-    - chmod +x gradlew
-    - chmod +x ./build.sh
+    - chmod 777 gradlew
+    - chmod 777 ./build.sh
 
 script:
 - "./gradlew assembleDebugUnitTest"
